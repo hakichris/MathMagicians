@@ -1,56 +1,54 @@
 * {
-    font-size: 16px;;
+  font-size: 16px;
 }
 
 body {
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    top: 50%;
-    left: 50%;
-    position:absolute;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    width: 400px;
-    text-align: center;
-    border: 2px solid black;
-    background: rgb(10, 10, 10);
-
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  border: 2px solid black;
+  background: rgb(10, 10, 10);
 }
 
 .keypad {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-auto-rows: minmax(50px, auto);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
 }
 
 #zero {
-    grid-column: 1/3;
+  grid-column: 1/3;
 }
 
 input[type="text"] {
-    width: 393px;
-    height: 50px;
-    background-color: rgb(10, 10, 10); 
-    text-align: right;
-    font-size: 20px;
-    color:  white;
-    font-weight: 50px;
+  width: 393px;
+  height: 50px;
+  background-color: rgb(10, 10, 10);
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  font-weight: 50;
 }
 
 button {
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background: #262834;
-    color: #fff;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262834;
+  color: #fff;
 }
 
 .highlight {
-    background: #56cbdb;
+  background: #56cbdb;
 }
