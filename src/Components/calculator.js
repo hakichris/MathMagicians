@@ -1,20 +1,34 @@
-imagecolorpicker.com/en
-
 import React from 'react';
 import './calculator.css';
 import Result from './result';
 
-const Calculator  = () => {
-  const operators = ['AC', '+/-', '%', '÷', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
-
+function Calculator() {
   return (
     <>
-    <div class="container">
-      <Result />
-      <div className="calc-buttons">
-        {operators.map((item) => <button key={item} type="button" name={item}>{item}</button>)}
+      <div className="container">
+        <Result />
+        <div className="keypad">
+          <button type="button">AC</button>
+          <button type="button">+/-</button>
+          <button type="button">%</button>
+          <button type="button" className="highlight">÷</button>
+          <button type="button">7</button>
+          <button type="button">8</button>
+          <button type="button">9</button>
+          <button type="button" className="highlight">*</button>
+          <button type="button">4</button>
+          <button type="button">5</button>
+          <button type="button">6</button>
+          <button type="button" className="highlight">-</button>
+          <button type="button">1</button>
+          <button type="button">2</button>
+          <button type="button">3</button>
+          <button type="button" className="highlight">+</button>
+          <button type="button" id="zero">0</button>
+          <button type="button">.</button>
+          <button type="button" className="highlight">=</button>
+        </div>
       </div>
-    </div>
     </>
   );
 }
