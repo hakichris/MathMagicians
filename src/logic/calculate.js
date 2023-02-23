@@ -4,7 +4,7 @@ function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
 
-function Calculate(obj, buttonName) {
+function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -123,4 +123,4 @@ function Calculate(obj, buttonName) {
   };
 }
 
-export default Calculate;
+export default calculate;

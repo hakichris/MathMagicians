@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import './calculator.css';
-import Calculate from './..calculate';
+import calculate from '../logic/calculate';
 import Result from './result';
 
 function Calculator() {
@@ -8,7 +8,7 @@ function Calculator() {
   const { total, next, operation } = state;
 
   const handler = (e) => {
-    const UpdateState = Calculate(state, e.target.name);
+    const UpdateState = calculate(state, e.target.name);
     setState(UpdateState);
   };
 
