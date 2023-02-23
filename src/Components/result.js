@@ -1,11 +1,13 @@
 import React from 'react';
 
-function Result() {
+function Result({ total, next, operation }) {
   return (
     <div className="calc-result">
-      <form>
-        <input type="text" required />
-      </form>
+      {total}
+      {' '}
+      {operation}
+      {' '}
+      {next}
     </div>
   );
 }
