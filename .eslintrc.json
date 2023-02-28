@@ -17,10 +17,12 @@
       "plugin:react/recommended",
       "plugin:react-hooks/recommended"
     ],
+    
     "plugins": ["react"],
     "rules": {
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "react/react-in-jsx-scope": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "import/no-unresolved": "off",
       "no-shadow": "off"
     },
