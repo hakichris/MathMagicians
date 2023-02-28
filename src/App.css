@@ -1,0 +1,94 @@
+ul {
+  display: flex;
+  align-self: flex-start;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.verticalLine {
+    border-right: thick solid #030000;
+}
+
+.Title {
+  font-size: 50px;
+  display: flex;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+nav {
+  order: 2;
+  height: fit-content;
+}
+
+p {
+    font-size: 20px;
+}
+
+#root {
+  display: flex;
+  justify-content: space-between;
+}
+
+blockquote {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  border: 2px solid black;
+  background: rgb(10, 10, 10);
+  font-size: 16px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  font-size: 16px;
+}
+
+#zero {
+  grid-column: 1/3;
+  font-size: 16px;
+}
+
+.calc-result {
+  width: 393px;
+  height: 50px;
+  background-color: rgb(10, 10, 10);
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  font-weight: 50;
+  font-size: 16px;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262834;
+  color: #fff;
+  font-size: 16px;
+}
+
+.highlight {
+  background: #56cbdb;
+}
