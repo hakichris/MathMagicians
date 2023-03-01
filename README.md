@@ -48,9 +48,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[do calculation]**
-- **[display calculated answers]**
-- **[interaction with users]**
+- **do calculation**
+- **display calculated answers**
+- **interaction with users**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,9 +72,9 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[more attractive styling]**
-- [ ] **[equation solver]**
-- [ ] **a[video tutorial]**
+- [x] **more attractive styling**
+- [x] **equation solver**
+- [x] **video tutorial**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
