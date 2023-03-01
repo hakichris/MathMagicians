@@ -62,8 +62,6 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Christian Hakizimana**
 
 - GitHub: [@githubhandle](https://github.com/hakichris)
@@ -76,19 +74,15 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[]**
-- [ ] **[]**
-- [ ] **a[]**
+- [ ] **[more attractive styling]**
+- [ ] **[equation solver]**
+- [ ] **a[video tutorial]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link]()
+coming soon
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +100,6 @@ Feel free to check the [issues page](https://github.com/hakichris/MathMagicians/
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project kindly give it a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,8 +107,6 @@ If you like this project kindly give it a star.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse for this amazing project
 
