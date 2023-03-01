@@ -10,7 +10,7 @@ function App() {
     <>
       <nav>
         <ul>
-          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <div className="verticalLine" />
           <li><Link to="/calculator">Calculator</Link></li>
           <div className="verticalLine" />
