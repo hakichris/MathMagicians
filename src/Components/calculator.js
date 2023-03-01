@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import './calculator.css';
 import calculate from '../logic/calculate';
 import Result from './result';
 
@@ -14,6 +13,12 @@ function Calculator() {
 
   return (
     <>
+
+      <div>
+        {' '}
+        <h1 className="Title"> Math Magicians</h1>
+        <h2> Let&apos;s have fun doing math!</h2>
+      </div>
       <div className="container">
         <Result
           total={total}
