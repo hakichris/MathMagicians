@@ -4,6 +4,10 @@ ul {
   gap: 10px;
 }
 
+body {
+  background-color: beige;
+}
+
 li {
   list-style: none;
   text-decoration: none;
@@ -12,7 +16,7 @@ li {
 }
 
 .verticalLine {
-    border-right: thick solid #030000;
+  border-right: thick solid #030000;
 }
 
 .Title {
@@ -28,7 +32,7 @@ nav {
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #root {
