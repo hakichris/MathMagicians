@@ -37,7 +37,6 @@
 
 # 📖 [MathMagician] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[MathMagician]** is a Project that use react to create a calculator using web app
 
@@ -48,7 +47,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[do calculation]**
 - **[display calculated answers]**
