@@ -35,10 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [MathMagician] <a name="about-project"></a>
+# 📖 [BOOKSTORE] <a name="about-project"></a>
 
 
-**[MathMagician]** is a Project that use react to create a calculator using web app
+**[BOOKSTORE]** is a Project that use react to create an online bookstore using web app
 
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -57,8 +57,8 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **do calculation**
-- **display calculated answers**
+- **list books**
+- **display books**
 - **interaction with users**
 
 <p align="right">(<a href="#readme-top">back to top</a></p>

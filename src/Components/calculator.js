@@ -13,7 +13,6 @@ function Calculator() {
 
   return (
     <>
-
       <div>
         {' '}
         <h1 className="Title"> Math Magicians</h1>
